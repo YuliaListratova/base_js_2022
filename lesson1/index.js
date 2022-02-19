@@ -20,7 +20,7 @@ console.log(isCash);
 
 //Три переменные для хранения Ф.И.О
 let myLastName = "Listratova";
-console.log(myLastName)
+console.log(myLastName);
 const myFirstName = "Yulia";
 console.log(myFirstName);
 const myMiddleName = "Victorovna";
