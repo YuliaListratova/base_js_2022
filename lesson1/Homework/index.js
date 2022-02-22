@@ -1,13 +1,11 @@
-console.log("HELLO JAVASCRIPT");
-
-// Homework 1 
+// Homework 1
 
 //Переменная для “названия нашей планеты”
-const ourPlanetName="Earth";
+const ourPlanetName = "Earth";
 console.log(ourPlanetName);
 
 //Переменная для “текущее время пользователя”
-let currentTime = new Date ();
+let currentTime = new Date();
 console.log(currentTime.toTimeString());
 
 //Переменная которая показывает “количества статей”
