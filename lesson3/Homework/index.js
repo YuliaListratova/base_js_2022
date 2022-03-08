@@ -75,13 +75,13 @@ console.log(undefined != null);
 // false    null может равняться только null или undefined, и ничему другому
 console.log(null == 0);
 
-// false  = 2 > 3 
+// false  = 2 > 3  3 в число
 console.log(2 > "3");
 
 // 1    =    0   -   0   +  1
 console.log(null - false + true); 
 
-// Nan
+// Nan число на строку
 console.log(1 / "l");
 
 // 6    =   2   *   3
@@ -90,7 +90,7 @@ console.log("2" * "3");
 // 9O    =    9 (сложение)  O (конкатенация строк)
 console.log(4 + 5 + "O"); 
 
-// 145 (конкатенация строк) бинарный плюс 
+// l45 (конкатенация строк) бинарный плюс 
 console.log("l" + 4 + 5); 
 
 // 2
@@ -117,8 +117,68 @@ console.log(undefined + null);
 // false === равенство без приведения типов (число не равно строке)
 console.log(1 === "1");
 
-// false
+// false 2 приводится к номеру
 console.log("2" > 10);
 
 // false    undefined может равняться только null или undefined, и ничему другому
 console.log(NaN == undefined);
+
+
+// Закрепить тему
+//  Number
+console.log(1, typeof 1);
+console.log(5 - "2", typeof (5 - "2"));
+console.log(5 - "123abc", typeof (5 - "123abc"));
+
+console.log("\n");
+
+// BigInt
+console.log(
+  BigInt(0b11111111111111111111111111111111111111111111111111111),
+  typeof BigInt(0b11111111111111111111111111111111111111111111111111111)
+);
+
+console.log("\n");
+
+// String
+console.log("Строка", typeof "Строка");
+console.log("2" + 3, typeof ("2" + 3));
+
+console.log("\n");
+
+// Boolean
+console.log(true, typeof true);
+console.log(!0, typeof !0);
+console.log(!!2, typeof !!2);
+console.log(Boolean(""), typeof Boolean(""));
+
+console.log("\n");
+
+//Null, undefined
+console.log(null, typeof null);
+console.log(null + 0, typeof (null + 0));
+console.log(null - "2", typeof (null - "2"));
+console.log(null + "123", typeof (null + "123"));
+console.log(null === undefined);
+console.log(null == undefined);
+
+console.log("\n");
+
+//Symblol
+console.log(Symbol("123"), typeof Symbol("123"));
+
+console.log("\n");
+
+//Object
+const newUser = {
+  name: "Vasya",
+  age: 23,
+  role: {
+    id: 1,
+    type: "admin",
+  },
+};
+
+console.log(typeof newUser);
+newUser.type = "normal_user";
+console.log(newUser);
