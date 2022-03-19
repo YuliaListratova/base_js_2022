@@ -121,23 +121,23 @@
 // Задача 2
 //Реализовать систему рекомендаций для пользователя опираясь на значение переменной, хранящей значение температуры в градусах Цельсия.
 
-const currentTmp = -30;
+// const currentTmp = -30;
 
-if (currentTmp <= -30) {
-    console.log('Оставайтесь дома!')
-} else if (currentTmp > -30 && currentTmp <= -10) {
-    console.log ("Сегодня холодно");
-} else if (currentTmp > -10 && currentTmp <= 5) {
-    console.log("Не холодно")
-} else if (currentTmp > 5 && currentTmp <= 15) {
-    console.log("Тепло")
-} else if (currentTmp >15 && currentTmp <=25) {
-    console.log("Очень тепло")
-} else if (currentTmp > 25 && currentTmp <35) {
-    console.log("Жарко")
-} else {
-    console.log("Пекло")
-}
+// if (currentTmp <= -30) {
+//     console.log('Оставайтесь дома!')
+// } else if (currentTmp > -30 && currentTmp <= -10) {
+//     console.log ("Сегодня холодно");
+// } else if (currentTmp > -10 && currentTmp <= 5) {
+//     console.log("Не холодно")
+// } else if (currentTmp > 5 && currentTmp <= 15) {
+//     console.log("Тепло")
+// } else if (currentTmp >15 && currentTmp <=25) {
+//     console.log("Очень тепло")
+// } else if (currentTmp > 25 && currentTmp <35) {
+//     console.log("Жарко")
+// } else {
+//     console.log("Пекло")
+// }
 
 
 
@@ -178,7 +178,7 @@ if (currentTmp <= -30) {
 //Вывести в консоль заданную строку N раз. 
 
 // const iterationText = "Итерация"
-// // while
+// while
 // const limit = 5;
 // let counter = 1;
 // while (counter <= 5) {

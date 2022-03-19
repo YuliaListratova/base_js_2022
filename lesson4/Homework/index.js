@@ -294,14 +294,14 @@
 // Проверьте, что сумма первых трех цифр равняется сумме вторых трех цифр. 
 // Если это так - выведите 'да', в противном случае выведите 'нет'.
 
-const myVar = "123124";
-let result1 = (+myVar[0] + +myVar[1] + +myVar[2]);
-let result2 = (+myVar[3] + +myVar[4] + +myVar[5]);
-if (result1 === result2) {
-    console.log("Да");
-} else {
-    console.log ("Нет");
-}
+// const myVar = "123124";
+// let result1 = (+myVar[0] + +myVar[1] + +myVar[2]);
+// let result2 = (+myVar[3] + +myVar[4] + +myVar[5]);
+// if (result1 === result2) {
+//     console.log("Да");
+// } else {
+//     console.log ("Нет");
+// }
 
 // const myVar = "123222";
 // let result1 =0;
@@ -314,3 +314,65 @@ if (result1 === result2) {
 //     }
 // }
 // result1 === result2 ? console.log("да") : console.log("нет");
+
+// Циклы while и for
+// Решите эти задачи сначала через цикл while, а затем через цикл for.
+
+// номер 1
+// Выведите столбец чисел от 1 до 100.
+
+// let a = 1;
+// while (a >= 1 && a <= 100) {
+//     console.log(a);
+//     a++;
+// }
+
+// for (let a = 1; a <= 100; a++) {
+//     console.log(a);
+// }
+
+// номер 2
+// Выведите столбец чисел от 11 до 33.
+
+// let b = 11;
+// while (b >= 11 && b <= 33) {
+//     console.log(b);
+//     b++;
+// }
+
+// let b = 11;
+// for (b = 11; b <= 33; b++) {
+//     console.log(b);
+// }
+
+// номер 3
+//  Выведите столбец четных чисел в промежутке от 0 до 100.
+
+// let a = 0;
+
+// while (a >= 0 && a <= 100) {
+//     console.log(a);
+//     a += 2;
+// }
+
+// let b = 0;
+// for (b = 0; b <= 100; b += 2) {
+//     console.log(b);
+// }
+
+// номер 4
+// С помощью цикла найдите сумму чисел от 1 до 100.
+
+let sum = 0;
+let i = 0;
+while (i >= 0 && i <= 100) {
+   console.log(sum);
+    i++;
+    sum += i;
+ }
+3
+// let sum = 0;
+// for (let i = 0; i <= 100; i++) {
+//     sum += i;
+//  }
+// console.log(sum);
