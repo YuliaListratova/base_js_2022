@@ -321,11 +321,11 @@
 // номер 1
 // Выведите столбец чисел от 1 до 100.
 
-// let a = 1;
-// while (a >= 1 && a <= 100) {
-//     console.log(a);
-//     a++;
-// }
+let a = 1;
+while (a >= 1 && a <= 100) {
+    console.log(a);
+    a++;
+}
 
 // for (let a = 1; a <= 100; a++) {
 //     console.log(a);
@@ -363,13 +363,13 @@
 // номер 4
 // С помощью цикла найдите сумму чисел от 1 до 100.
 
-let sum = 0;
-let i = 0;
-while (i >= 0 && i <= 100) {
-   console.log(sum);
-    i++;
-    sum += i;
- }
+// let sum = 0;
+// let i = 0;
+// while (i >= 0 && i <= 100) {
+//    console.log(sum);
+//     i++;
+//     sum += i;
+//  }
 3
 // let sum = 0;
 // for (let i = 0; i <= 100; i++) {

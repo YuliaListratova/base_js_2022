@@ -169,9 +169,9 @@ let newArr = [];
  for (let i = 0; i < myArray.length; i++) {
    if (isNumberInRange (myArray[i])) {
     newArr.push(myArray);
-   }
-  }
-  console.log(newArr)
+   };
+  };
+  console.log(newArr);
 
 // номер 10
 // Сделайте функцию getDigitsSum (digit - это цифра),
